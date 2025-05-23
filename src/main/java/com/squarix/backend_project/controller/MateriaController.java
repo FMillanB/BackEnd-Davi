@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/materias")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://my-app-uybl.onrender.com/")
 public class MateriaController {
     @Autowired
     private MateriaRepository materiaRepo;

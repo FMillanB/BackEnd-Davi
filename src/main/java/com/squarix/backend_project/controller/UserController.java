@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Set;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://my-app-uybl.onrender.com/")
 @RequestMapping("/api/usuarios")
 public class UserController {
 
