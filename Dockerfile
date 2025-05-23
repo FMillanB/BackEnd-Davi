@@ -3,7 +3,7 @@ FROM eclipse-temurin:21-jdk
 
 WORKDIR /app
 
-COPY target/backend-project-0.0.1-SNAPSHOT.jar app.jar
+COPY backend-project-0.0.1-SNAPSHOT.jar app.jar
 
 EXPOSE 8080
 
